@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Admisiones</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<!--Tipografía Heebo regular-->	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+<!--Tipografía Montserrat regular-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<!--Animaciones-->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+<!--Inicio de header-->
+<header>
+<div class="div_logo"><a href="../index.html"><img src="../medios/img/HIKMA_LOGO.png" alt="logo" width="300 px" class="animate__animated animate__pulse"/></a></div>
+  <nav>
+    <ul class="menu">
+		  <li class="menu_li"><a href="../index.html" class="menu_a">Inicio</a></li>
+		  <li class="menu_li"><a href="filosofia.html" class="menu_a">Filosofía</a></li>
+		  <li class="menu_li"><a href="oferta.html" class="menu_a">Oferta educativa</a></li>
+		  <li class="menu_li"><a href="admisiones.html" class="menu_a">Admisiones</a></li>
+		  <li class="menu_li"><a href="contacto.html" class="menu_a">Contacto</a></li>
+	</ul>
+	</nav>
+<div class="mi_cuenta"><a href="cuenta.html"><img src="../medios/img/cuenta.png" alt="micuenta" width="40" class="cuenta_img"/></a></div>
+<div class="buscador"><form action="../../../form-result.php" method="post" target="_blank">
+  <img src="../medios/img/lupa.png" width="20" alt=""/> 
+  <input type="search" name="busquedamusica" placeholder="Buscar">     
+  <input type="submit" class="boton_buscador" value="Buscar"></form></div>
+</header>
+<!--Fin de header-->
+	
+<!--Inicio de main-->
+<main>
+  
+<div class="div_cuenta">
+<form method="post" name="form1" id="form1">
+      <h1 class="h1">Crear cuenta</h1>
+      <label for="nombre">Nombre:</label>
+      	<input name="nombre" type="text" class="nombre" placeholder="Nombre">
+      <label for="email">Email:</label>
+      	<input name="email" type="email" class="email" placeholder="Email">
+      <label for="usuario">Usuaario:</label>
+      	<input name="usuario" type="text" class="usuario" placeholder="Usuario">
+      <label for="contraseña">Contraseña:</label>
+      	<input name="contraseña" type="text" class="contrasena" placeholder="Contraseña">
+      <input name="submit" type="submit" formaction="procesamiento.html" class="boton1"  value="Crear">
+    </form>
+
+
+ <form method="post" name="form2" id="form2">
+      <h1 class="h1">Iniciar sesión</h1>
+      <label for="textfield">Text Field:<br>
+    </label>
+      <input name="textfield" type="text" class="usuario" placeholder="Usuario">
+      <label for="textfield2"><br>
+      Text Field:<br>
+      </label>
+    <input name="textfield2" type="text" class="contrasena" placeholder="Contraseña">
+      <input name="submit" type="submit" class="boton1" value="Iniciar">      
+  </form>
+</div>
+	
+</main>
+<!--Fin de main-->	
+
+<!--Inicio de footer-->
+<footer>
+<div class="div_logo"><img src="../medios/img/HIKMA_LOGO.png" alt="logo" width="300 px" class="div_logo_footer"/></div>
+
+  <div class="direccion_footer">Prolongación 5 Pte. 4910 Col. Belisario Domínguez Puebla, México.<br> 
+								Teléfonos 2 30 29 41 y 7 85 20 30 <br>
+  Todos los derechos reservados, Colegio Hikma.</div>
+  <div class="redes">
+	<a href="https://www.facebook.com/ColegioHikma/" target="_blank"><img src="../medios/img/facebook.png" class="inoco_redes icono_face animate__animated animate__bounce" width="40" alt="facebook"/></a>
+	  
+    <a href="https://www.instagram.com/colegio_hikma/" target="_blank"><img src="../medios/img/instagram.png" class="inoco_redes icono_insta animate__animated animate__bounce" width="40" alt="instagram"/></a>
+	  
+    <a href="https://api.whatsapp.com/send/?phone=5212211847090&text&type=phone_number&app_absent=0" target="_blank"><img src="../medios/img/whatsapp.png" class="inoco_redes icono_whats animate__animated animate__bounce" width="40" alt="whatsapp"/></a>
+	  
+  	<a href="https://twitter.com/ColegioHikma" target="_blank"><img src="../medios/img/twitter.png" class="inoco_redes icono_twitter animate__animated animate__bounce" width="40" alt="twitter"/></a>
+	  
+	<a href="https://https://www.youtube.com/channel/UCvqBY8VCrnbXl8s6NZgjWUw" target="_blank"><img src="../medios/img/youtube_amarillo.png" class="inoco_redes icono_face animate__animated animate__bounce" width="40" alt="youtube"/></a>
+  </div>
+	
+</footer>
+<!--Fin de footer-->
+	
+<!--Javascript-->
+	<script src="java/script.js"></script>
+</body>
+</html>
